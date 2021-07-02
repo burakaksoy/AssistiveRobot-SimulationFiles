@@ -14,6 +14,15 @@
             <real_time_factor>1</real_time_factor>
             <real_time_update_rate>1000</real_time_update_rate>
         </physics>
+
+        <gui fullscreen='0'>
+            <camera name='user_camera'>
+                <pose>-2.43371 -6.05936 10.7894 0 1.0218 1.2058</pose>
+                <view_controller>orbit</view_controller>
+                <projection_type>perspective</projection_type>
+            </camera>
+        </gui>  
+
         <include>
             <uri>model://ground_plane</uri>
         </include>
@@ -111,6 +120,38 @@
             <pose>-1.30099 3.45819 0.475 0 -0 -0.000798</pose>
         </include>
 
+        <include>
+            <uri>model://kinect_ros1</uri>
+            <name>kinect1</name>
+            <static>1</static>
+            <!-- <allow_auto_disable>1</allow_auto_disable> -->
+            <pose>4.3 3.7 2.5 0.0 0.52 -2.0972</pose>
+        </include>
+
+        <include>
+            <uri>model://kinect_ros2</uri>
+            <name>kinect2</name>
+            <static>1</static>
+            <!-- <allow_auto_disable>1</allow_auto_disable> -->
+            <pose>0.0 3.7 2.5 0.0 0.52 -1.044403965</pose>
+        </include>
+
+        <include>
+            <uri>model://kinect_ros3</uri>
+            <name>kinect3</name>
+            <static>1</static>
+            <!-- <allow_auto_disable>1</allow_auto_disable> -->
+            <pose>0.0 -3.7 2.5 0.0 0.52 1.04440396</pose>
+        </include>
+
+        <include>
+            <uri>model://kinect_ros4</uri>
+            <name>kinect4</name>
+            <static>1</static>
+            <!-- <allow_auto_disable>1</allow_auto_disable> -->
+            <pose>4.3 -3.7 2.5 0.0 0.52 2.0972</pose>
+        </include>
+
         <actor name="actor_sitting">
             <skin>
                 <filename>moonwalk.dae</filename>
@@ -174,13 +215,7 @@
             </script>
         </actor>       
 
-        <gui fullscreen='0'>
-            <camera name='user_camera'>
-                <pose>-2.43371 -6.05936 10.7894 0 1.0218 1.2058</pose>
-                <view_controller>orbit</view_controller>
-                <projection_type>perspective</projection_type>
-            </camera>
-        </gui>        
+              
     
     </world>
 </sdf>
