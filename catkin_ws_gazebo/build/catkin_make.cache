@@ -1,2 +1,0 @@
-lab_gazebo
--DCATKIN_DEVEL_PREFIX=/home/burak/common/RESEARCH/AssistiveRobot-SimulationFiles/catkin_ws_gazebo/devel -DCMAKE_INSTALL_PREFIX=/home/burak/common/RESEARCH/AssistiveRobot-SimulationFiles/catkin_ws_gazebo/install -G Unix Makefiles

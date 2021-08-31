@@ -1,8 +1,0 @@
-prefix=/home/burak/common/RESEARCH/AssistiveRobot-SimulationFiles/catkin_ws_gazebo/devel
-
-Name: lab_gazebo
-Description: Description of lab_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
