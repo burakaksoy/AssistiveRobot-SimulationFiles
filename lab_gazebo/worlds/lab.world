@@ -120,7 +120,35 @@
             <pose>-1.30099 3.45819 0.475 0 -0 -0.000798</pose>
         </include>
 
-        <include>
+        <actor name="actor_sitting">
+            <skin>
+                <filename>moonwalk.dae</filename>
+            </skin>
+            <animation name="sitting">
+                <filename>sitting.dae</filename>
+                <!-- <interpolate_x>true</interpolate_x> -->
+            </animation>
+            <script>
+                <loop>true</loop>
+                <delay_start>0.000000</delay_start>
+                <auto_start>true</auto_start>
+                <trajectory id="123213" type="sitting">
+                    <waypoint>
+                        <time>0</time>
+                        <pose>0 -1 0 0 0 0</pose>
+                    </waypoint>
+                    <waypoint>
+                        <time>10</time>
+                        <pose>0 -1 0 0 0 0</pose>
+                    </waypoint>
+                </trajectory>
+            </script>
+        </actor>
+
+    </world>
+</sdf>
+
+        <!-- <include>
             <uri>model://kinect_ros1</uri>
             <name>kinect1</name>
             <static>1</static>
@@ -151,32 +179,6 @@
             <!-- <allow_auto_disable>1</allow_auto_disable> -->
             <pose>4.3 -3.7 2.5 0.0 0.52 2.0972</pose>
         </include>
-
-        <actor name="actor_sitting">
-            <skin>
-                <filename>moonwalk.dae</filename>
-            </skin>
-            <animation name="sitting">
-                <filename>sitting.dae</filename>
-                <!-- <interpolate_x>true</interpolate_x> -->
-            </animation>
-            <script>
-                <loop>true</loop>
-                <delay_start>0.000000</delay_start>
-                <auto_start>true</auto_start>
-                <trajectory id="123213" type="sitting">
-                    <waypoint>
-                        <time>0</time>
-                        <pose>0 -1 0 0 0 0</pose>
-                    </waypoint>
-                    <waypoint>
-                        <time>10</time>
-                        <pose>0 -1 0 0 0 0</pose>
-                    </waypoint>
-                </trajectory>
-            </script>
-        </actor>
-
 
         <actor name="actor_walk">
             <skin>
@@ -213,9 +215,4 @@
                     </waypoint>
                 </trajectory>
             </script>
-        </actor>       
-
-              
-    
-    </world>
-</sdf>
+        </actor>        -->
