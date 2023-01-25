@@ -1,6 +1,6 @@
 # AssistiveRobot-SimulationFiles
 
-An Example Lab Simulation Environment prepared for Gazebo using siple geometric shapes.  
+An Example Lab Simulation Environment prepared for Gazebo using simple geometric shapes.  
 
 `lab_gazebo` is the package for the lab world environment.
 (`.experimental` folder can be ignored, included just for development process)  
