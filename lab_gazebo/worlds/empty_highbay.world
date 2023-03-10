@@ -31,9 +31,57 @@
 
     <include>
       <uri>model://highbay</uri>
-      <pose>0 0 0 0 -0 0</pose>
-      <!-- <static>1</static> -->
+      <pose>0.73 0.88 0 0 -0 0</pose>
+      <static>1</static>
     </include>
+
+    <include>
+        <uri>model://wall_table2</uri>
+        <static>1</static>
+        <!-- <allow_auto_disable>1</allow_auto_disable> -->
+        <name>wall_table2_1</name>
+        <pose>4.42 4.5 0 0 -0 1.8e-05</pose>
+    </include>
+
+    <include>
+        <uri>model://wall_table2</uri>
+        <static>1</static>
+        <!-- <allow_auto_disable>1</allow_auto_disable> -->
+        <name>wall_table2_2</name>
+        <pose>3.21 4.5 0 0 -0 1.8e-05</pose>
+    </include>
+
+    <include>
+        <uri>model://highbay_shelves</uri>
+        <static>1</static>
+        <!-- <allow_auto_disable>1</allow_auto_disable> -->
+        <pose>4.99 -2.33 0 0 -0 1.8e-05</pose>
+        <name>highbay_shelves_1</name>
+    </include>
+
+    <include>
+        <uri>model://highbay_shelves</uri>
+        <static>1</static>
+        <!-- <allow_auto_disable>1</allow_auto_disable> -->
+        <pose>5.7 3.41 0 0 -0 1.57</pose>
+        <name>highbay_shelves_2</name>
+    </include>
+
+    <include>
+        <uri>model://sand_blaster_and_brake</uri>
+        <static>1</static>
+        <!-- <allow_auto_disable>1</allow_auto_disable> -->
+        <pose>0.78 3.94 0 0 -0 0</pose>
+    </include>
+
+    <include>
+        <uri>model://abb_control_box</uri>
+        <static>1</static>
+        <!-- <allow_auto_disable>1</allow_auto_disable> -->
+        <pose>2.0 4.29 0 0 -0 0</pose>
+    </include>
+
+    
     
   </world>
 </sdf>
