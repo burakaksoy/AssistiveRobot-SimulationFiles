@@ -27,7 +27,7 @@
         <geometry>
           <plane>
             <normal>0 0 1</normal>
-            <size>100 100</size>
+            <size>15 15</size>
           </plane>
         </geometry>
 
@@ -43,7 +43,7 @@
           <ambient>0.3 0.3 0.3 1</ambient>
           <diffuse>0.3 0.3 0.3 1</diffuse>
           <specular>0.3 0.3 0.3 1</specular>
-          <!-- <emissive>0 0 0 1</emissive> -->
+          <emissive>0 0 0 1</emissive>
         </material>
 
 
