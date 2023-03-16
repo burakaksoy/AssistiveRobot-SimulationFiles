@@ -258,7 +258,7 @@
         <uri>model://uwb_anchor</uri>
         <static>1</static>
         <!-- <allow_auto_disable>1</allow_auto_disable> -->
-        <pose>3.4 4.8 2.5 0 0 0</pose>
+        <pose>3.4 4.5 2.5 0 0 0</pose>
     </include>
 
     <include>
