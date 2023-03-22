@@ -238,7 +238,7 @@
     <!-- ADD UWB ANCHORS -->
     <!-- names should include the prefix: "uwb_anchor" -->
     <include>
-        <name>uwb_anchor1</name>
+        <name>uwb_anchor100</name>
         <uri>model://uwb_anchor</uri>
         <static>1</static>
         <!-- <allow_auto_disable>1</allow_auto_disable> -->
@@ -246,7 +246,7 @@
     </include>
 
     <include>
-        <name>uwb_anchor2</name>
+        <name>uwb_anchor101</name>
         <uri>model://uwb_anchor</uri>
         <static>1</static>
         <!-- <allow_auto_disable>1</allow_auto_disable> -->
@@ -254,7 +254,7 @@
     </include>
     
     <include>
-        <name>uwb_anchor3</name>
+        <name>uwb_anchor102</name>
         <uri>model://uwb_anchor</uri>
         <static>1</static>
         <!-- <allow_auto_disable>1</allow_auto_disable> -->
@@ -262,7 +262,7 @@
     </include>
 
     <include>
-        <name>uwb_anchor4</name>
+        <name>uwb_anchor103</name>
         <uri>model://uwb_anchor</uri>
         <static>1</static>
         <!-- <allow_auto_disable>1</allow_auto_disable> -->
