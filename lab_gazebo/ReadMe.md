@@ -57,3 +57,6 @@ A subdirectory, named after the world, has been created in the current working d
 ## To visualize .dae files in RVIZ, use RVizMeshVisualizer package:
 Check [https://github.com/burakaksoy/RVizMeshVisualizer](https://github.com/burakaksoy/RVizMeshVisualizer)
 
+## To create a ROS Map file (map.pgm and map.yaml) from a .world file:
+Check [https://github.com/burakaksoy/gazebo_ros_2d_map_plugin.git](https://github.com/burakaksoy/gazebo_ros_2d_map_plugin.git)
+

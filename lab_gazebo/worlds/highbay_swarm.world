@@ -1,6 +1,15 @@
 <sdf version='1.6'>
   <world name='highbay_swarm_world'>
 
+    <plugin name='gazebo_occupancy_map' filename='libgazebo_2d_map_plugin.so'>
+      <map_resolution>0.1</map_resolution>            <!-- in meters, optional, default 0.1 -->
+      <map_origin>0.0 0.0 0.0</map_origin>            <!-- in meters, optional, default [0.0, 0.0, 0.0] -->
+      <map_size_x>14</map_size_x>                     <!-- in meters, optional, default 10 -->
+      <map_size_y>14</map_size_y>                     <!-- in meters, optional, default 10 -->
+      <init_robot_x>0.0</init_robot_x>                  <!-- x coordinate in meters, optional, default 0 -->
+      <init_robot_y>0.0</init_robot_y>                  <!-- y coordinate in meters, optional, default 0 -->
+    </plugin>
+
     <plugin
       filename="ignition-gazebo-collada-world-exporter-system"
       name="ignition::gazebo::systems::ColladaWorldExporter">
