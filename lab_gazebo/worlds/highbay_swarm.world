@@ -10,6 +10,7 @@
       <init_robot_y>0.0</init_robot_y>                  <!-- y coordinate in meters, optional, default 0 -->
     </plugin>
 
+    <!-- Plugin to export world files to a single COLLADA (.dea) file -->
     <plugin
       filename="ignition-gazebo-collada-world-exporter-system"
       name="ignition::gazebo::systems::ColladaWorldExporter">
@@ -105,7 +106,8 @@
         <uri>model://sand_blaster_and_brake</uri>
         <static>1</static>
         <!-- <allow_auto_disable>1</allow_auto_disable> -->
-        <pose>0.78 3.94 0 0 -0 0</pose>
+        <!-- <pose>0.78 3.94 0 0 -0 0</pose> -->
+        <pose>0.78 4.60 0 0 -0 0</pose>
     </include>
 
     <include>
@@ -259,7 +261,8 @@
         <uri>model://uwb_anchor</uri>
         <static>1</static>
         <!-- <allow_auto_disable>1</allow_auto_disable> -->
-        <pose>3.4 -2.8 2.5 0 0 0</pose>
+        <!-- <pose>3.4 -2.8 2.5 0 0 0</pose> -->
+        <pose>3.5 -1.7 2.5 0 0 0</pose>
     </include>
     
     <include>
@@ -267,7 +270,8 @@
         <uri>model://uwb_anchor</uri>
         <static>1</static>
         <!-- <allow_auto_disable>1</allow_auto_disable> -->
-        <pose>3.4 4.5 2.5 0 0 0</pose>
+        <!-- <pose>3.4 4.5 2.5 0 0 0</pose> -->
+        <pose>4.8 2 2.5 0 0 0</pose>
     </include>
 
     <include>
